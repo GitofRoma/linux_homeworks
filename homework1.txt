@@ -1,0 +1,16 @@
+   0 mkdir /home/animals
+   1 cd /home/animals
+   2 mkdir dogs cats fish
+   3 touch /home/animals/dogs/pluto1.txt
+   4 touch /home/animals/cats/garfield.txt
+   5 touch /tmp/adam.tx
+   6 mkdir /home/humans
+   7 cp /tmp/adam.txt /home/humans/
+   8 rm -rf /tmp/adam.tx
+   9 touch /tmp/adam.txt
+  10 cp /tmp/adam.txt /home/humans/
+  11 touch /tmp/evA.txt
+  12 mv /tmp/evA.txt /opt/eve.txt
+  13 mv /opt/eve.txt /home/humans
+  14 ls /home/humans
+  15 history > homework1.txt
