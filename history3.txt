@@ -1,0 +1,12 @@
+   0 nano
+   1 pwd
+   2 ls 
+   3 cd /etc/group
+   4 cd /etc
+   5 ls
+   6 cat group
+   7 cat group | tail -5
+   8 cat group | tail -5 >> /root/file.txt
+   9 cat /root/file.txt
+  10 vi /root/file.txt
+  11 history > history3.txt
