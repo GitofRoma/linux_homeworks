@@ -1,0 +1,6 @@
+   0 nano myscript.sh
+   1 chmod 744 myscript.sh
+   2 alias ROMA='/root/myscript.sh'
+   3 ROMA
+   4 cat /var/ROMA.txt 
+   5 history > history.txt
