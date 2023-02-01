@@ -1,6 +1,7 @@
-   0 nano myscript.sh
-   1 chmod 744 myscript.sh
-   2 alias ROMA='/root/myscript.sh'
-   3 ROMA
-   4 cat /var/ROMA.txt 
-   5 history > history.txt
+nano myscript.sh
+    >> /var/ROMA.txt
+    date >> /var/ROMA.txt
+    cat /etc/group | tail -3 | sed 's/user/ROMA/' >> /var/ROMA.txt
+chmod 744 myscript.sh
+alias ROMA='/root/myscript.sh'
+ROMA
