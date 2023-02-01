@@ -1,0 +1,10 @@
+Сорри)
+
+
+nano myscript.sh
+    >> /var/ROMA.txt
+    date >> /var/ROMA.txt
+    cat /etc/group | tail -3 | sed 's/user/ROMA/' >> /var/ROMA.txt
+chmod 744 myscript.sh
+alias ROMA='/root/myscript.sh'
+ROMA
