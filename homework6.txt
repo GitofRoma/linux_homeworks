@@ -1,0 +1,19 @@
+nano
+         Ctrl + Z
+         y
+         myfirstbashscript.sh
+
+
+chmod 744 myfirstbashscript.sh
+
+nano myfirstbashscript.sh
+
+#!/bin/bash
+USER=roma
+date
+eco "hello $USER"
+pwd
+ps -ef | wc -l
+ls -la /etc/passwd | awk '{print $1}'
+
+./myfirstbashscript.sh
